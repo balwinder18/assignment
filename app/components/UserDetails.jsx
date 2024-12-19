@@ -23,7 +23,7 @@ export default function UserDetails({ user }) {
         </div>
       </div>
     ) : (
-      <div className="w-2/3 p-4">
+      <div className="w-2/3 p-4 fixed">
         <p className="text-gray-500">Select a user to view their details</p>
       </div>
     );
