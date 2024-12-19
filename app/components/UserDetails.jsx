@@ -1,6 +1,6 @@
 export default function UserDetails({ user }) {
     return user ? (
-      <div className="w-2/3 p-4">
+      <div className="w-2/3 p-4 fixed">
         <div className="flex items-center">
           <img
             src={user.avatar}

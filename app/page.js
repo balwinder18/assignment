@@ -50,12 +50,16 @@ export default function UsersPage() {
           <p className="m-auto text-red-500">{error}</p>
         ) : (
           <>
+           <div id="right">
             <UserList
               users={users}
               selectedUserId={selectedUser?.id}
               onSelectUser={handleUserSelection}
             />
+            </div>
+            <div id="left">
             <UserDetails user={selectedUser} />
+            </div>
           </>
         )}
       </div>

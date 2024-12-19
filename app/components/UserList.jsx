@@ -1,6 +1,6 @@
 export default function UserList({ users, selectedUserId , onSelectUser }) {
     return (
-      <div className="w-1/3 border-r">
+      <div className="w-auto border-r">
         <h2 className="text-lg font-bold p-4">User</h2>
         {users.length > 0 ? (
           users.map((user,index) => (
